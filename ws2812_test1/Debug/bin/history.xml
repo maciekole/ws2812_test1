@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=ws2812_test1.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\ws2812_test1 -TC:\CooCox\CoIDE\configuration\ProgramData\ws2812_test1/arm-gcc-link.ld -g">
+      <target file="ws2812_test1.elf" lastModified="160bd46fa3b">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16075eb41bb"/>
+         <source file="..\obj\main.o" lastModified="160bd46f874"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16075eb4351"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="16075eb438f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16075eb43ce"/>
+         <source file="..\obj\syscalls.o" lastModified="16075eb446a"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="16075eb44a9"/>
+         <source file="..\obj\misc.o" lastModified="16075eb44e7"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="16075eb4574"/>
+      </target>
+   </processor>
+</history>
